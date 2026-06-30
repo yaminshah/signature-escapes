@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Signature Escapes",
   description: "Luxury Kashmir Tour Packages",
   verification: {
-    google: "",
+    google: "RLqLPiaQ5cV6sPp0EkfcP-jioqSMBG27OMao7FQJwaE",
   },
 };
 
