@@ -13,8 +13,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Signature Escapes",
-  description: "Luxury Kashmir Tour Packages",
+  title: "Signature Escapes | Luxury Kashmir Tour Packages",
+  description:
+    "Book premium Kashmir tour packages with Signature Escapes. Hotels, houseboats, self-drive cars, flights, honeymoon, family and group tours.",
+  keywords: [
+    "Kashmir tour packages",
+    "Luxury Kashmir tours",
+    "Signature Escapes",
+    "Kashmir honeymoon",
+    "Srinagar packages",
+    "Gulmarg tour",
+    "Pahalgam tour",
+    "Sonmarg trip",
+  ],
   verification: {
     google: "RLqLPiaQ5cV6sPp0EkfcP-jioqSMBG27OMao7FQJwaE",
   },
