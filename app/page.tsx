@@ -576,7 +576,7 @@ export default function Home() {
 
 {/* MANAGING DIRECTOR SECTION */}
 
-<section className="py-20 px-6 bg-zinc-950 text-white">
+<section className="py-6 px-6 bg-zinc-950 text-white">
   <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
     <div className="flex justify-center">
