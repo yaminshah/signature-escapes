@@ -558,42 +558,57 @@ export default function Home() {
 
       {/* FLOATING BUTTONS */}
 
-      <a
-        href="tel:+919149817572"
-        className="fixed bottom-24 right-6 bg-yellow-500 text-black px-6 py-4 rounded-full font-bold shadow-lg z-50"
-      >
-        Call Us
-      </a>
+<a
+  href="tel:+919149817572"
+  className="fixed bottom-24 right-6 bg-yellow-500 text-black px-6 py-4 rounded-full"
+>
+  Call Us
+</a>
 
-    <a
+<a
   href="https://wa.me/919149817572"
   target="_blank"
   rel="noopener noreferrer"
-  className="fixed bottom-6 right-6 ..."
+  className="fixed bottom-6 right-6 bg-green-500 text-white px-6 py-4 rounded-full"
 >
   WhatsApp Us
 </a>
 
-{/* Paste the new code HERE */}
+{/* MANAGING DIRECTOR SECTION */}
 
-<section className="py-16 px-6 bg-gray-100 text-center">
-  <img
-    src="/yamin-shah.jpg"
-    alt="Yamin Shah"
-    className="w-48 h-48 rounded-full mx-auto object-cover shadow-lg"
-  />
+<section className="py-20 px-6 bg-zinc-950 text-white">
+  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
-  <h2 className="text-3xl font-bold mt-6">
-    Yamin Shah
-  </h2>
+    <div className="flex justify-center">
+      <img
+        src="/yamin-shah.jpg"
+        alt="Yamin Shah"
+        className="w-72 h-72 rounded-full object-cover border-4 border-yellow-500 shadow-2xl"
+      />
+    </div>
 
-  <p className="text-xl text-yellow-600 mt-2">
-    Managing Director
-  </p>
+    <div>
+      <h2 className="text-4xl font-bold text-yellow-500 mb-4">
+        Meet Our Founder
+      </h2>
 
-  <p className="max-w-2xl mx-auto mt-4 text-gray-600">
-    At Signature Escapes, our mission is to create unforgettable travel experiences with exceptional service and personalized itineraries.
-  </p>
+      <h3 className="text-3xl font-bold">
+        Yamin Shah
+      </h3>
+
+      <p className="text-xl text-yellow-400 mt-2 mb-6">
+        Managing Director | Signature Escapes
+      </p>
+
+      <p className="text-gray-300 leading-8 text-lg">
+        Driven by a passion for showcasing the breathtaking beauty of Kashmir,
+        Yamin Shah founded Signature Escapes with a vision to create unforgettable travel experiences.
+      </p>
+    </div>
+
+  </div>
 </section>
 
 </main>
+);
+}
