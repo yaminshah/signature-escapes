@@ -662,7 +662,7 @@ export default function Home() {
 
       <div className="space-y-3 text-gray-300">
         <p>📞 +91 91498 17572</p>
-        <p>✉️ signatureescapes07@gmail.com</p>
+        <p>✉️ signatureescapes.in@gmail.com</p>
         <p>📍 Kashmir, India</p>
       </div>
 
