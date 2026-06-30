@@ -608,7 +608,80 @@ export default function Home() {
 
   </div>
 </section>
+{/* PREMIUM FOOTER */}
+<footer className="bg-black border-t border-yellow-500 text-white py-16 px-6 mt-20">
+  <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-10">
 
+    {/* Company */}
+    <div>
+      <h3 className="text-3xl font-bold text-yellow-500 mb-4">
+        Signature Escapes
+      </h3>
+
+      <p className="text-gray-300 leading-7">
+        Beyond Destinations, Into Experiences.
+        Discover Kashmir with luxury stays,
+        unforgettable journeys and premium services.
+      </p>
+    </div>
+
+    {/* Quick Links */}
+    <div>
+      <h4 className="text-xl font-bold text-yellow-500 mb-4">
+        Quick Links
+      </h4>
+
+      <ul className="space-y-3 text-gray-300">
+        <li><a href="#home" className="hover:text-yellow-500">Home</a></li>
+        <li><a href="#about" className="hover:text-yellow-500">About</a></li>
+        <li><a href="#packages" className="hover:text-yellow-500">Packages</a></li>
+        <li><a href="#contact" className="hover:text-yellow-500">Contact</a></li>
+      </ul>
+    </div>
+
+    {/* Destinations */}
+    <div>
+      <h4 className="text-xl font-bold text-yellow-500 mb-4">
+        Top Destinations
+      </h4>
+
+      <ul className="space-y-3 text-gray-300">
+        <li>📍 Srinagar</li>
+        <li>📍 Gulmarg</li>
+        <li>📍 Sonmarg</li>
+        <li>📍 Pahalgam</li>
+        <li>📍 Ladakh</li>
+      </ul>
+    </div>
+
+    {/* Contact */}
+    <div>
+      <h4 className="text-xl font-bold text-yellow-500 mb-4">
+        Contact Us
+      </h4>
+
+      <div className="space-y-3 text-gray-300">
+        <p>📞 +91 91498 17572</p>
+        <p>✉️ signatureescapes07@gmail.com</p>
+        <p>📍 Kashmir, India</p>
+      </div>
+
+      <a
+        href="https://instagram.com/signature_escapes_travel"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block mt-6 bg-yellow-500 text-black px-6 py-3 rounded-full font-bold hover:scale-105 transition"
+      >
+        Follow on Instagram
+      </a>
+    </div>
+
+  </div>
+
+  <div className="border-t border-gray-800 mt-10 pt-8 text-center text-gray-400">
+    © 2026 Signature Escapes. All Rights Reserved.
+  </div>
+</footer>
 </main>
 );
 }
