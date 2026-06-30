@@ -565,15 +565,35 @@ export default function Home() {
         Call Us
       </a>
 
-      <a
-        href="https://wa.me/919149817572"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 bg-green-500 px-6 py-4 rounded-full font-bold shadow-lg z-50"
-      >
-        WhatsApp Us
-      </a>
+    <a
+  href="https://wa.me/919149817572"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fixed bottom-6 right-6 ..."
+>
+  WhatsApp Us
+</a>
 
-    </main>
-  );
-}
+{/* Paste the new code HERE */}
+
+<section className="py-16 px-6 bg-gray-100 text-center">
+  <img
+    src="/yamin-shah.jpg"
+    alt="Yamin Shah"
+    className="w-48 h-48 rounded-full mx-auto object-cover shadow-lg"
+  />
+
+  <h2 className="text-3xl font-bold mt-6">
+    Yamin Shah
+  </h2>
+
+  <p className="text-xl text-yellow-600 mt-2">
+    Managing Director
+  </p>
+
+  <p className="max-w-2xl mx-auto mt-4 text-gray-600">
+    At Signature Escapes, our mission is to create unforgettable travel experiences with exceptional service and personalized itineraries.
+  </p>
+</section>
+
+</main>
